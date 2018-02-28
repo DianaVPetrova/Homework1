@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="#ff8400"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/txt_kunal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kunal"
+            android:textColor="@android:color/white"
+            android:background="#1039bf"
+            />
+        <TextView
+            android:id="@+id/txt_ben"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ben"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:textColor="@android:color/white"
+            android:background="#1039bf"
+            />
+        <TextView
+            android:id="@+id/txt_kagure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kagure"
+            android:textColor="@android:color/white"
+            android:background="#1039bf"
+            />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/txt_lyla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lyla"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/white"
+        android:background="#1039bf"
+        android:layout_marginRight="8dp"/>
+
+    <TextView
+        android:id="@+id/txt_Natalie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Natalie"
+        android:layout_marginBottom="8dp"
+        android:layout_above="@+id/txt_lyla"
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/white"
+        android:background="#1039bf"/>
+
+    <TextView
+        android:id="@+id/txt_me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Me"
+        android:layout_toRightOf="@+id/txt_lyla"
+        android:layout_alignParentBottom="true"
+        android:textColor="@android:color/white"
+        android:background="#1039bf"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true">
+
+
+        <TextView
+            android:id="@+id/txt_amy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amy"
+            android:textColor="@android:color/white"
+            android:background="#1039bf"/>
+        <TextView
+            android:id="@+id/txt_omoju"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Omoju"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:textColor="@android:color/white"
+            android:background="#1039bf"/>
+        <TextView
+            android:id="@+id/txt_jennie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jennie"
+            android:textColor="@android:color/white"
+            android:background="#1039bf"/>
+    </LinearLayout>
+
+</RelativeLayout>
